@@ -1,0 +1,78 @@
+.result-container {
+    background-color: #1f1f1f;
+    padding: 25px;
+    border-radius: 12px;
+    margin-top: 30px;
+    box-shadow: 0 0 20px rgba(0, 188, 212, 0.1);
+    color: #e0e0e0;
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  
+  /* Scrollbar styling for WebKit browsers */
+  .result-container::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .result-container::-webkit-scrollbar-track {
+    background: #1f1f1f;
+  }
+  
+  .result-container::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 10px;
+  }
+  
+  .result-title {
+    font-size: 1.5rem;
+    color: #00acc1;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 0 0 8px rgba(0, 188, 212, 0.3);
+  }
+  
+  .result-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .result-item {
+    margin-bottom: 20px;
+  }
+  
+  .result-single {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .result-field {
+    padding: 8px 0;
+  }
+  
+  .result-key {
+    font-weight: 600;
+    color: #80d8ff;
+  }
+  
+  .result-value {
+    color: #ffffff;
+  }
+  
+  .result-separator {
+    border: 0;
+    height: 1px;
+    background-color: #333;
+    margin-top: 15px;
+  }
+  
+  .error-message {
+    background-color: #2c2c2c;
+    color: #ff5252;
+    border-left: 5px solid #ff5252;
+    padding: 12px;
+    border-radius: 6px;
+    margin-top: 20px;
+  }
+  
